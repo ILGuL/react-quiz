@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 const links = [
    {to: '/', label: 'La lista', exact: true},
    {to: '/auth', label: 'Autorización', exact: false},
-   {to: '/quize-creator', label: 'Crear una prueba', exact: false}
+   {to: '/quiz_creator', label: 'Crear una prueba', exact: false}
 ]
 
 class Drawer extends Component {
